@@ -1,0 +1,70 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Fredoka', sans-serif; font-weight: 500;
+}
+
+header {
+    font-family: 'Fredoka One', cursive;
+    background-color:black ;
+    background-image:url('../imgs/polaroid1.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+    height: 200px;
+    padding: 20px;
+
+}
+
+h3 {
+    color: #F7D68C;
+    background-position: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100; 
+    display: inline-block
+}
+
+h1 span  {
+    font-weight: 400;
+    color: rgb(220, 153, 59);
+
+}
+
+.post-container {
+    color: black;
+    width: 800px;
+    margin: 100px auto;
+
+}
+.thumbnail,
+.post-content
+{
+display: inline-block;
+width: 49%;
+}
+
+.thumbnail {
+    vertical-align: top; 
+}
+
+.post-content {
+    padding: 50px 20px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+p { padding-right: 60px;
+    
+}
+
+footer {
+
+    background-color: #00B1D3;
+    color: #ffffff;
+    text-align: center;
+}
